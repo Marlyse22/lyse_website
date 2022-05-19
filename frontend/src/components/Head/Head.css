@@ -1,0 +1,9 @@
+.nav-center{
+    flex-grow: 1; justify-content: center;
+}
+.btn-back{
+    background-color:rgba(143, 226, 237, 1) !important ;
+    font-family: 'Prata' ;  
+    color: black !important;
+    padding-right: 20px;
+}

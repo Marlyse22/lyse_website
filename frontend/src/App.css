@@ -1,0 +1,15 @@
+:root{
+  --bluemain: rgba(182, 227, 233, 0.57) ;
+  --bluelight: rgba(182, 227, 233, 0.2);
+  --blackmain:rgba(0, 0, 0, 1);
+  --graymain: rgba(0, 0, 0, 0.08);
+  --bluedark:rgba(0, 113, 129, 1);
+  --blueshine:rgba(143, 226, 237, 1);
+  --bluedak:rgba(43, 112, 192, 1);
+
+}
+.App{
+  
+  color:var(--blackmain);
+
+}

@@ -1,0 +1,6 @@
+.nav-center{
+    flex-grow: 1; justify-content: center;
+}
+.nav-back{
+    background-color:rgba(182, 227, 233, 0.2);
+}
