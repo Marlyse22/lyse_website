@@ -1,7 +1,8 @@
 
+import React from 'react';
 import './App.css';
-import ReactDOM from "react-dom/client";
-import { BrowserRouter as Router, Routes, Route,Link} from "react-router-dom";
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import 'bulma/css/bulma.css';
 
 import Home from "./pages/Home";
@@ -16,11 +17,11 @@ function App() {
       <Router>
         <Routes>
           <Route index element={<Home />} />
-          <Route excact path="/" element={<Home />} />
-          <Route excact path="Contact" element={<Contact />} />
-          <Route excact path="Parcours" element={<Parcours />} />
-          <Route excact path="Projets" element={<Projets />} />
-          <Route excact path="Technos" elem ent={<Technos />} />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="Contact" element={<Contact />} />
+          <Route exact path="Parcours" element={<Parcours />} />
+          <Route exact path="Projets" element={<Projets />} />
+          <Route exact path="Technos" element={<Technos />} />
         </Routes>
       </Router>
     </>

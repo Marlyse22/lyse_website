@@ -1,15 +1,27 @@
-:root{
-  --bluemain: rgba(182, 227, 233, 0.57) ;
-  --bluelight: rgba(182, 227, 233, 0.2);
-  --blackmain:rgba(0, 0, 0, 1);
-  --graymain: rgba(0, 0, 0, 0.08);
-  --bluedark:rgba(0, 113, 129, 1);
-  --blueshine:rgba(143, 226, 237, 1);
-  --bluedak:rgba(43, 112, 192, 1);
 
+.bg-blue-main{
+  background-color: rgba(182, 227, 233, 0.57)  !important;
+}
+.bg-blue-light{
+  background-color: rgba(182, 227, 233, 0.2) !important;
+}
+.bg-black-main{
+  background-color: rgba(0, 0, 0, 1) !important;
+}
+.bg-gray-main{
+  background-color: rgba(0, 0, 0, 0.08) !important;
+}
+.bg-blue-dark{
+  background-color: rgba(0, 113, 129, 1) !important;
+}
+.bg-blue-shine{
+  background-color: rgba(143, 226, 237, 1) !important;
+}
+.bg-blue-dak{
+  background-color: rgba(43, 112, 192, 1) !important;
 }
 .App{
   
-  color:var(--blackmain);
+  color: rgba(0, 0, 0, 1);
 
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Intro.css";
-import {  Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import Lyseimg from "../../assets/img/lysephoto.png"
 
 const Intro = () => {

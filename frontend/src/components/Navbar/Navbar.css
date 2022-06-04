@@ -2,5 +2,15 @@
     flex-grow: 1; justify-content: center;
 }
 .nav-back{
-    background-color:rgba(182, 227, 233, 0.2);
+    background-color:rgba(182, 227, 233, 0.2) !important;
+}
+.is-centered-absolute {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) !important; 
+}
+.nav-padding{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
 }

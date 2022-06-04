@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Head.css";
-import {  Link } from "react-router-dom";
+
+import { Link } from 'react-router-dom';
 import Github from "../../assets/img/github.png"
 import LinkedIn from "../../assets/img/linkedin.png";
 
@@ -47,7 +48,7 @@ const Head = () => {
                 <span aria-hidden="true">Marlyse S M HANGAMALONGO MAPAGA</span>
                 <span aria-hidden="true">
                     <div className="buttons">
-                    <Link to="/contact" className="button btn-back is-link">Contactez moi</Link>
+                    <Link to="/Contact" className="button btn-back is-link">Contactez moi</Link>
                 </div>
                 </span>
             </Link>
