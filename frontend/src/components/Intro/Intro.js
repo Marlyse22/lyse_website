@@ -1,35 +1,45 @@
 import React from 'react';
 import "./Intro.css";
+import {Container,Col,Row,Nav, Navbar,Button, Form} from 'react-bootstrap'
 import { Link } from 'react-router-dom';
 import Lyseimg from "../../assets/img/lysephoto.png"
 
 const Intro = () => {
   return (
-    <div className="Intro">
+    <div className="intro">
+       <Container>
+          <Row>
+            <Col sm={7}>
+              <div className="">
+                    <span className="high-title" >Bonjour ! je suis Marlyse Saintich 
+                    {'\n'}
+                    je suis Développeuse web et Mobile </span>
+                    {'\n'}
+                    <p className="simple-title-i">
+                         Frontend Developer with high level of experience in web designing
+                        and development, producting the Quality work
+                    </p>
+              </div>
+            
+             <div className="btn-mgi">
+              <Link  to="/contact" >
+                <Button variant="light" className="btn-back">Contactez-moi</Button>
+              </Link>
+            </div>
+             
+        </Col>
+        <Col sm={5}>
+          <img
+              src={Lyseimg}
+              alt="Lyse"
+              
+          />
+        
+        </Col>
+      </Row>
+     
+    </Container>
       
-      <div className="i-left">
-        <div className="i-name">
-          <span >Hy! I Am</span>
-          <span>Marlyse Saintich HANGAMALONGO MAPAGA</span>
-          <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
-          </span>
-        </div>
-        <Link to="/contact" >
-          <button className="button btn-back is-link ">Contacter moi</button>
-        </Link>
-       
-      </div>
-      {/* right image side */}
-      <div className="i-right">
-                <img
-                    src={Lyseimg}
-                    alt="Lyse"
-                    width="331"
-                    height="339"
-                />
-      </div>
     </div>
   )
 }

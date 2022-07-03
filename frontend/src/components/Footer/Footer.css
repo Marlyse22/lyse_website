@@ -1,0 +1,12 @@
+.bg-footer{
+background: rgba(182, 227, 233, 0.57) !important;
+}
+.simple-title {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: black !important;
+    margin-top: 2% !important;
+}

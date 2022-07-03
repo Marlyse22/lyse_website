@@ -7,3 +7,19 @@
     color: black !important;
     padding-right: 20px;
 }
+.simple-title {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: black !important;
+}
+.simp-title {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: black !important;
+}

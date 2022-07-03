@@ -1,12 +1,12 @@
 import React from 'react'
-import Head from "../Head/Head.js";
-import Navbar from "../Navbar/Navbar.js";
+import HeadL from "../Head/HeadL.js";
+import NavbarL from "../Navbar/NavbarL.js";
 
 const Header = () => {
   return (
     <div>
-      
-      <Navbar />
+       <HeadL />
+      <NavbarL />
   
     </div>
   )

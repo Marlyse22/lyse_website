@@ -4,6 +4,9 @@
 .nav-back{
     background-color:rgba(182, 227, 233, 0.2) !important;
 }
+.btn-back {
+    background-color: #8FE2ED !important;
+}
 .is-centered-absolute {
     position: absolute;
     top: 50%;
@@ -13,4 +16,20 @@
 .nav-padding{
     padding-left: 60px !important;
     padding-right: 60px !important;
+}
+.simple-title {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: black !important;
+}
+.simp-title {
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: black !important;
 }

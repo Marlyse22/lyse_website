@@ -4,6 +4,8 @@ import './App.css';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import 'bulma/css/bulma.css';
+import 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
